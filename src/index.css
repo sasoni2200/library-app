@@ -1,0 +1,192 @@
+/* App.css */
+.developername, a{
+  color:red;
+}
+
+
+a.myName{
+  color: rgb(254, 254, 254);
+}
+
+.top-bar {
+  display: flex;
+    flex-direction: row;
+    background-color: #0c141d;
+    padding:  0px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    justify-content: center;
+}
+.top-bar a {
+  color: #a0c0eb;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.top-bar a:hover {
+  text-decoration: underline;
+}
+.top-bar .icon {
+  margin-right: 5px;
+}
+
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  button {
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  button:hover {
+    transform: scale(1.02);
+    transition: 0.25s ease-in;
+  }
+  
+  .btn-primary {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #68b0ab, #a3c4f3);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #fb3232, #f3a3a3);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-danger:hover{
+    background: linear-gradient(135deg, #d05c5c, #9b4747);
+  }
+
+  input {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: #f8f9fa;
+  }
+  
+  header.app-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Popup Styles */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .popup button {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+
+  h1.developername , a {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+
+  }
+
+
+  input {
+    margin: 0px;
+    padding: 12px 5px;
+    
+  }
+
+    /* Container for Center Alignment */
+    .containerForm {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+ 

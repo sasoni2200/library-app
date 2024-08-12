@@ -1,0 +1,82 @@
+/* Signup.css */
+
+/* Container for the Sign Up Section */
+.signin-section {
+    width: 400px;
+    padding: 20px;
+    background: #f3f4f6;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Header Style */
+  .app-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .app-header h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Card Styling */
+  .card {
+    background: #ffffff; /* Consistent with card style in IssueBook */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Input Styles */
+  input {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #ffffff; /* Background matching the card */
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #a3c4f3; /* Match focus color from IssueBook */
+    box-shadow: 0 0 8px rgba(163, 196, 243, 0.4);
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(29, 97, 255); /* Matching IssueBook button gradient */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #5a9d8f, #8db6f3); /* Darker gradient on hover */
+  }
+  
+  /* Container for Center Alignment */
+  .containerForm {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  

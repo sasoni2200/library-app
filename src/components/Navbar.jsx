@@ -43,15 +43,15 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="main-nav">
+        <nav className="main-nav" >
             <div className="nav-container">
                 <div className="logo-section">
                 <Link to="/">
-                        <img src="../my-logo.svg" alt="Logo" className="logo-img" />
+                        <img src="./my-logo.svg" alt="Logo" className="logo-img" />
                     </Link>
                 </div>
                 <button className="menu-toggle" onClick={toggleMenu}>
-                    <img className="menu-icon" src="../ham.png" alt="Menu" />
+                    <img className="menu-icon" src="./ham.png" alt="Menu" /> 
                 </button>
                 <ul ref={menuRef} className={`nav-links ${isOpen ? 'nav-links-open' : ''}`}>
                     <li><Link to="/dashboard/issued" className="nav-item" onClick={handleMenuItemClick}>Issued Books</Link></li>

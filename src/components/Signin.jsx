@@ -14,7 +14,7 @@ export default function Signin() {
         e.preventDefault();
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            navigate('/dashboard/');
+            navigate('/dashboard/books');
         } catch (error) {
             console.error("Error signing in: ", error);
         }
